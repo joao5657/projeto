@@ -9,10 +9,8 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
     img.setAttribute('src', './assets/avatar-light.png')
-    img.setAttribute("mayk brito sorrrindo, com oculos escuro e fundo claro")
   } else {
     // se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png") 
-    img,setAttribute("mayk brito sorrindo de oculos")
   }
 }
